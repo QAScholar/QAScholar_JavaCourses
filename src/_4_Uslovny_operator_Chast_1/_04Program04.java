@@ -23,11 +23,11 @@ public class _04Program04 {
         System.out.println("4) a/b");
         System.out.println("5) a%b");
         //Считаем
-        int add=a+b;
-        int ded=a-b;
-        int mult=a*b;
-        float div=a/b;
-        int mod=a%b;
+        //int add=a+b;
+        //int ded=a-b;
+       // int mult=a*b;
+        //float div=a/b;
+       // int mod=a%b;
         //Юзер должен ввести с клавиатуры № действия чтобы получить ответ
         System.out.println("Enter № of operation: ");
         //Новая переменная для № действия
@@ -36,23 +36,25 @@ public class _04Program04 {
         //Через свич выбирается подходящее действие
         switch (selection) {
             case 1:
-                System.out.println("The result of addition is: "+add);
+                System.out.println("The result of addition is: "+(a+b));
                  break;
             case 2:
-                System.out.println("The result of deduction is: "+ded);
+                System.out.println("The result of deduction is: "+(a-b));
                 break;
             case 3:
-                System.out.println("The result of multiplication is: "+mult);
+                System.out.println("The result of multiplication is: "+(a*b));
                 break;
             case 4:
 
                 if (b==0){
                     System.out.println("You cannot divide by 0!");
-                } else {
-                System.out.println("The result of division is: "+div);}
+                }
+                else {
+                System.out.println("The result of division is: "+(a/b));
+                }
                 break;
             case 5:
-                System.out.println("The result of modulus is: "+mod);
+                System.out.println("The result of modulus is: "+(a%b));
                 break;
         default:
             System.out.println("Wrong selection");
