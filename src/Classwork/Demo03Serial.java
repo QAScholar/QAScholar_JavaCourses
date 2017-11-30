@@ -12,7 +12,7 @@ public class Demo03Serial {
 
 
         //try{
-        FileInputStream fileInputStream = new FileInputStream(  "C://Java/QAScholar_JavaCourses//questions.txt");
+        FileInputStream fileInputStream = new FileInputStream( "C://Java/QAScholar_JavaCourses//questions.txt");
 
         BufferedReader bufferedReader= new BufferedReader(new InputStreamReader(fileInputStream));
 
