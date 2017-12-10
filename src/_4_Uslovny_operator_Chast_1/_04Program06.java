@@ -12,7 +12,7 @@ public class _04Program06 {
         //Вводим M
         System.out.println("Введите M:");
         Scanner y=new Scanner(System.in);
-        int M=x.nextInt();
+        int M=y.nextInt();
         if (N>M){
             System.out.println("Неверный диапазон. M должно быть больше чем N");
         }
